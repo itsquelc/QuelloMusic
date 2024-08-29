@@ -1,0 +1,13 @@
+git config --global user.name itsquelc
+git config --global user.email raquelnunescirino@gmail.com
+
+Criar projeto:
+npx create-expo-app@latest QuelloMusic --template blank
+cd QuelloMusic
+
+Instalas pacotes necessários:
+npx expo install react-dom react-native-web @expo/metro-runtime (para web)
+npx expo install @react-native-community/slider
+npx expo install expo-av
+
+npx expo start --android --localhost
