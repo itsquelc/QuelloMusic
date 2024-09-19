@@ -11,3 +11,5 @@ npx expo install @react-native-community/slider
 npx expo install expo-av
 
 npx expo start --android --localhost
+
+imagem 2 - linha 75
